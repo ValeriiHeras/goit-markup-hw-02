@@ -6,8 +6,6 @@
     --primary-brand: #4D5AE5;
     --pressed-state: #404BBF;
     --light: #F4F4FD;
-
-
 }
 
 body {
@@ -50,7 +48,6 @@ ul {
     color: var(--primary-text-color);
     text-decoration: none;
     font-style: normal;
-
 }
 
 .logo-black {
@@ -61,7 +58,6 @@ ul {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
-
 }
 
 .logo {
