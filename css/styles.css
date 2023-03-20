@@ -36,7 +36,10 @@ ul {
     text-decoration: none;
 }
 
-.navigation-link .header-link .header-contacts:active {
+.header-link:active {
+    color: var(--pressed-state);
+}
+.header-contacts:active {
     color: var(--pressed-state);
 }
 
@@ -57,6 +60,7 @@ ul {
     color: var(--title-text-color);
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+    text-decoration: none;
 
 }
 
@@ -68,6 +72,7 @@ ul {
     font-family: 'Raleway',
         sans-serif;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 /* footer */
@@ -90,6 +95,7 @@ footer {
     color: var(--light);
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 /* body */
@@ -103,8 +109,8 @@ h1 {
     color: var(--accent-primary);
 }
 
-hero-box {
-    background: var(--title-text-color);
+.hero-box {
+    background-color: var(--title-text-color);
 }
 
 .hero-button {
@@ -197,10 +203,15 @@ h2 {
     background: var(--light);
 }
 
-.filter-type .filter-type-active:hover {
+.filter-type:hover {
     background-color: var(--pressed-state);
+    color: var(--light)
 }
 
+.filter-type-active:hover {
+    background-color: var(--light);
+    color: var(--pressed-state);
+}
 /* Row1 */
 
 .portfolio-description {
